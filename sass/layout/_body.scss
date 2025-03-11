@@ -18,5 +18,10 @@ body {
         background-position: 166% -151px;
         background-size: 750px;
     }
+
+    @include mixin.breakpoint(desktopxl) {
+        background-position: 131% -151px;
+        background-size: 760px;
+    }
 }
 
