@@ -1,0 +1,22 @@
+@use '../abstracts/abstracts' as var;
+@use '../abstracts/abstracts' as mixin;
+
+body {
+    @include mixin.breakpoint(tablet) {
+        background-image: url('../img/hero_img_tablet@2x.png');
+        background-repeat: no-repeat;
+        background-size: 86%;
+        background-position: 403% -16%;
+    }
+
+    @include mixin.breakpoint(tablethorizontal) {
+        background-size: 76%;
+        background-position: 255% -37%;
+    }
+
+    @include mixin.breakpoint(desktop) {
+        background-position: 166% -151px;
+        background-size: 750px;
+    }
+}
+

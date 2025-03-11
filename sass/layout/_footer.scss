@@ -1,0 +1,21 @@
+@use '../abstracts/abstracts' as var;
+@use '../abstracts/abstracts' as mixin;
+
+.footer-principal {
+    padding: 16px 36px;
+    background-color: var.$dark-blue;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        ul {
+            @include mixin.reset-list();
+        }
+    }
+
+    .button {
+        @include mixin.button-pink-blue();
+    }
+}

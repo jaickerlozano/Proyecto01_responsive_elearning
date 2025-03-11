@@ -1,0 +1,22 @@
+// Variables for the project
+$bp-tablet: 768px;
+$bp-tablet-horizontal: 1024px;
+$bp-desktop: 1200px;
+$bp-desktop-xl: 1440px;
+
+// Variables for fonts
+$family-font: "Plus Jakarta Sans", sans-serif;
+
+// Colors
+$blue: #666CA3;
+$dark-blue: #13183F;
+$grey: #83869A;
+$pink: #F74780;
+$light-pink: #FFA7C3;
+$white: #FCFCFF;
+$orange: #FF6F48;
+$fuchsia: #F02AA6;
+$neutral-blue: #4851FF;
+
+$pink-orange-gradient: linear-gradient(180deg, $orange 0.04%, $fuchsia 100%);
+$pink-blue-gradient: linear-gradient(180deg, &$neutral-blue 0%, $fuchsia 99.92%);

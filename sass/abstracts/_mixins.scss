@@ -1,0 +1,74 @@
+@use '/sass/abstracts/variables' as var;
+
+// Puntos de quiebre para que sea responsive
+@mixin breakpoint($bp) {
+  @if $bp == tablet {
+    @media (min-width: var.$bp-tablet) {
+      @content;
+    }
+  }
+
+  @if $bp == tablethorizontal {
+    @media (min-width: var.$bp-tablet-horizontal) {
+      @content;
+    }
+  }
+
+  @if $bp == desktop {
+    @media (min-width: var.$bp-desktop) {
+      @content;
+    }
+  }
+
+  @if $bp == desktopxl {
+    @media (min-width: var.$bp-desktop-xl) {
+      @content;
+    }
+  }
+}
+
+// Se reinicia las listas
+@mixin reset-list() {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+// Botón fondo azul oscuro y letras color blanco
+@mixin button($bg-color: var.$dark-blue, $color: var.$white) {
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  text-decoration: none;
+  color: $color;
+  background-color: $bg-color;
+  border-radius: 2rem;
+  &:hover {
+    background-color: var.$blue;
+  }
+}
+
+// Botón con degradado de rosado a naranja
+@mixin button-pink-orange() {
+  @include button();
+  background-image: var.$pink-orange-gradient;
+  &:hover {
+    background-image: linear-gradient(#f9a38c, #f5769e);
+  }
+}
+
+// Botón con degradado de rosado a azul
+@mixin button-pink-blue() {
+  @include button();
+  background-image: var.$pink-blue-gradient;
+  &:hover {
+    background-image: linear-gradient(#9297ff, #e981c3);
+  }
+}
+
+// Botón link color rosado
+@mixin button-link() {
+  color: var.$pink;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+}

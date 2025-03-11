@@ -1,0 +1,24 @@
+@use '../abstracts/abstracts' as mixin;
+
+// Versión mobile
+header.header-principal {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 2.4rem;
+
+    @include mixin.breakpoint(tablet) {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        ul {
+            @include mixin.reset-list();
+        }
+    }
+
+}

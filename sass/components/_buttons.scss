@@ -1,0 +1,18 @@
+@use '../abstracts/abstracts' as mixin;
+@use '../abstracts/abstracts' as var;
+
+.button {
+    @include mixin.button();
+}
+
+.button-pink-orange {
+    @include mixin.button-pink-orange();
+}
+
+.button-pink-blue {
+    @include mixin.button-pink-blue();
+}
+
+.button-link {
+    @include mixin.button-link();
+}
