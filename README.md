@@ -1,6 +1,6 @@
 # e-Learning - Landing Page
 
-![e-Learning Preview](https://github.com/jaickerlozano/Proyecto01_responsive_elearning/blob/main/img/hero_img_mobile.png)
+![e-Learning Preview](https://github.com/jaickerlozano/Proyecto01_responsive_elearning/blob/main/public/imagen-desktop.png)
 
 ## 🚀 Descripción
 
@@ -32,7 +32,9 @@
    ```
 5. Abre tu navegador en `http://localhost:5173/`
 
-## 📸 Capturas de Pantalla
+## 🎥 Preview versión desktop
+
+![e-learning-preview](https://github.com/jaickerlozano/Proyecto01_responsive_elearning/blob/main/public/download.gif)
 
 ## 📌 Características
 
