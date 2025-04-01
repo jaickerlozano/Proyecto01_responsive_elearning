@@ -52,7 +52,7 @@ Puedes ver la versión en vivo en: [Demo de e-Learning](https://jaickerlozano.gi
 Si tienes alguna pregunta o sugerencia, no dudes en contactarme:
 
 - 📧 **Correo:** [jlozano.dev@gmail.com](mailto:jlozano.dev@gmail.com)
-- 🔗 **LinkedIn:** [Perfil de lindedin](https://www.linkedin.com/in/jaicker-rafael-lozano-flores-970197264/)
+- 🔗 **LinkedIn:** [Perfil de linkedin](https://www.linkedin.com/in/jaicker-rafael-lozano-flores-970197264/)
 - 🐙 **GitHub:** [@jaickerlozano](https://github.com/jaickerlozano)
 
 ---
